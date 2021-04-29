@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/smartwalle/paypal"
+	"github.com/wahaha957/paypal"
 	"net/http"
 )
 
