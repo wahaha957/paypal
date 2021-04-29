@@ -1,3 +1,3 @@
-module github.com/smartwalle/paypal
+module paypal
 
-go 1.12
+go 1.15
