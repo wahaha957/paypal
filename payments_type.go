@@ -111,7 +111,6 @@ type Sale struct {
 	ProtectionEligibilityType string              `json:"protection_eligibility_type,omitempty"`
 	ClearingTime              string              `json:"clearing_time,omitempty"`
 	PaymentHoldStatus         string              `json:"payment_hold_status,omitempty"`
-	PaymentHoldReasons        []PaymentHoldReason `json:"payment_hold_reasons,omitempty"`
 	TransactionFee            *Currency           `json:"transaction_fee,omitempty"`
 	ReceivableAmount          *Currency           `json:"receivable_amount,omitempty"`
 	ExchangeRate              string              `json:"exchange_rate,omitempty"`
